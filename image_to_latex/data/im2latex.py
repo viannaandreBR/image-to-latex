@@ -2,9 +2,9 @@ import random
 from pathlib import Path
 from typing import Optional
 
-import albumentations as A
+import albumentations as A  # type: ignore
 import torch
-from albumentations.pytorch.transforms import ToTensorV2
+from albumentations.pytorch.transforms import ToTensorV2  # type: ignore
 from pytorch_lightning import LightningDataModule
 from torch.utils.data import DataLoader
 

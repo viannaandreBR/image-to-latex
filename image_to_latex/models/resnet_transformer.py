@@ -3,7 +3,7 @@ from typing import Union
 
 import torch
 import torch.nn as nn
-import torchvision.models
+import torchvision.models  # type: ignore
 from torch import Tensor
 
 from .positional_encoding import PositionalEncoding1D, PositionalEncoding2D

@@ -33,7 +33,7 @@ def main(cfg: DictConfig):
     if trainer.logger:
         trainer.logger.log_hyperparams(Namespace(**cfg))
 
-    trainer.tune(lit_model, datamodule=datamodule)
+    trainer.tune(lit_model, datamodule=datamodule)  # type: ignore
     trainer.fit(lit_model, datamodule=datamodule)
     trainer.test(lit_model, datamodule=datamodule)
 
