@@ -4,7 +4,7 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/kingyiusuen/image-to-latex/blob/main/.pre-commit-config.yaml)
 [![License](https://img.shields.io/github/license/kingyiusuen/image-to-latex)](https://github.com/kingyiusuen/image-to-latex/blob/main/LICENSE)
 
-An application that maps an image of a LaTeX math equation to LaTeX code.
+An application that maps an image of a LaTeX math equation to LaTeX code. (https://imagetolatex.streamlit.app)
 
 <img src="figures/screenshot.gif" alt="Image to Latex streamlit app" width="512">
 
